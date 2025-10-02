@@ -1,0 +1,24 @@
+{
+    "name": "acme/deal-command-processor",
+    "description": "Command processing package for CRM deals",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DealCommands\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DealCommands\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
